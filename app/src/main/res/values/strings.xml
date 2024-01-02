@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Notes</string>
+    <string name="note1">Note1</string>
+    <string name="date">Date</string>
+    <string name="notecontent">NoteContent</string>
+    <string name="u00a9_2020_satya_yoganand_addala">© 2020, Satya Yoganand Addala</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="android_notes">Android Notes</string>
+    <string name="enter_notes"> Enter Notes</string>
+    <string name="enter_note_title"> Enter Note Title</string>
+</resources>

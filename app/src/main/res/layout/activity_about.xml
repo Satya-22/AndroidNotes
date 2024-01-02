@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_backgroung"
+    tools:context=".AboutActivity">
+
+  <TextView
+      android:id="@+id/activityLabel"
+      android:layout_width="181dp"
+      android:layout_height="64dp"
+      android:layout_marginTop="84dp"
+      android:text="@string/android_notes"
+      android:textAlignment="center"
+      android:textColor="#880E4F"
+      android:textSize="26sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.491"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <androidx.constraintlayout.widget.Guideline
+      android:id="@+id/guideline2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintGuide_percent="0.5" />
+
+  <TextView
+      android:id="@+id/copyRight"
+      android:layout_width="314dp"
+      android:layout_height="46dp"
+      android:layout_marginTop="68dp"
+      android:text="@string/u00a9_2020_satya_yoganand_addala"
+      android:textColor="#880E4F"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toStartOf="@+id/guideline2"
+      app:layout_constraintHorizontal_bias="0.503"
+      app:layout_constraintStart_toStartOf="@+id/guideline2"
+      app:layout_constraintTop_toBottomOf="@+id/activityLabel" />
+
+  <TextView
+      android:id="@+id/version"
+      android:layout_width="186dp"
+      android:layout_height="46dp"
+      android:layout_marginTop="200dp"
+      android:text="@string/version_1_0"
+      android:textAlignment="center"
+      android:textColor="#880E4F"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toStartOf="@+id/guideline2"
+      app:layout_constraintStart_toStartOf="@+id/guideline2"
+      app:layout_constraintTop_toBottomOf="@+id/copyRight" />
+</androidx.constraintlayout.widget.ConstraintLayout>
